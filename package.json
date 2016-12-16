@@ -1,6 +1,6 @@
 {
   "name": "done-autorender",
-  "version": "0.9.0-pre.1",
+  "version": "0.9.0-pre.2",
   "description": "Autorender CanJS projects",
   "main": "autorender.js",
   "scripts": {
@@ -23,16 +23,11 @@
     "url": "https://github.com/donejs/autorender/issues"
   },
   "devDependencies": {
-    "can-component": "^3.0.3",
-    "can-list": "^3.0.1",
-    "can-map": "^3.0.3",
-    "can-map-define": "^3.0.1",
-    "can-route": "^3.0.5",
     "funcunit": "^3.1.0",
     "lodash.template": "^4.4.0",
-    "steal": "^0.16.43",
+    "steal": ">=1.0.0-rc2",
     "steal-qunit": "0.1.4",
-    "steal-tools": "^0.16.8",
+    "steal-tools": ">=1.0.0-rc2",
     "testee": "^0.3.0"
   },
   "homepage": "https://github.com/donejs/autorender",
@@ -42,13 +37,17 @@
       "lib": "src"
     }
   },
-  "dependencies": {
-    "can-route": "^3.0.5",
-    "can-stache": "^3.0.13",
-    "can-util": "^3.0.13",
-    "can-view-import": "^3.0.3",
-    "can-view-model": "^3.1.2",
-    "can-zone": "^0.6.0",
-    "steal-stache": "^3.0.3"
+  "peerDependencies": {
+    "can-component": ">=3.0.3",
+    "can-list": ">=3.0.1",
+    "can-map": ">=3.0.3",
+    "can-map-define": ">=3.0.1",
+    "can-route": ">=3.0.5",
+    "can-stache": ">=3.0.13",
+    "can-util": ">=3.0.13",
+    "can-view-import": ">=3.0.3",
+    "can-view-model": ">=3.1.2",
+    "can-zone": ">=0.6.0",
+    "steal-stache": ">=3.0.3"
   }
 }
